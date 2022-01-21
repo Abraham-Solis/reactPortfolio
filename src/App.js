@@ -1,9 +1,13 @@
+import './App.css'
+import HeroImage from './components/HeroImg'
 
-function App() {
-  return ( <>
-  
-  
-  </>)
+function App () {
+  return (
+    <>
+      <HeroImage />
+
+    </>
+  )
 }
 
-export default App;
+export default App
