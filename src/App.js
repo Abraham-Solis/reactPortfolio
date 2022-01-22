@@ -1,11 +1,11 @@
 import './App.css'
-import HeroImage from './components/HeroImg'
+import Navbar from './components/Navbar'
 
 function App () {
   return (
     <>
-      <HeroImage />
-
+      <Navbar />
+      <h1 className='text-3xl font-bold underline'>Hello world </h1>
     </>
   )
 }
