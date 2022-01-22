@@ -1,4 +1,3 @@
-body {
-  background-image: url("https://image.shutterstock.com/image-illustration/dark-blue-ocean-surface-seen-260nw-582300589.jpg");
-  background-size: cover;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
