@@ -1,11 +1,17 @@
-import React from 'react';
-import { Card, Button, CardBody, CardTitle, CardSubtitle, CardText, CardGroup, CardImg} from 'reactstrap';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { Card, Button, CardBody, CardTitle, CardSubtitle, CardText, CardGroup, CardImg} from 'reactstrap';
 
 const Cards = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, [])
+
   return (
     <CardGroup>
-      <Card >
+      <Card 
+        data-aos="fade-up">
         <CardImg 
           alt="Card image cap"
           src="https://picsum.photos/318/180"
@@ -30,7 +36,8 @@ const Cards = () => {
           </Button>
         </CardBody>
       </Card>
-      <Card>
+      <Card 
+        data-aos="fade-down">
         <CardImg 
           alt="Card image cap"
           src="https://picsum.photos/318/180"
@@ -55,7 +62,8 @@ const Cards = () => {
           </Button>
         </CardBody>
       </Card>
-      <Card>
+      <Card
+        data-aos="fade-up">
         <CardImg
           alt="Card image cap"
           src="https://picsum.photos/318/180"

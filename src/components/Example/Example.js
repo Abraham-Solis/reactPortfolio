@@ -13,7 +13,7 @@ const Example = () => {
     <div className='grids'>
       <div className='boxes'>1</div>
       <div className='boxes'>2</div>
-      <div data-aos="fade-left"className='boxes'>3</div>
+      <div data-aos="fade-left"className='boxes box1'>3</div>
       <div data-aos="fade-right" className='boxes'>4</div>
       <div data-aos="fade-left" className='boxes'>5</div>
       <div data-aos="fade-right"  className='boxes'>6</div>

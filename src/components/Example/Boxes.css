@@ -1,11 +1,11 @@
-.boxes{
+.boxes {
   margin: 20px;
   margin-top: 150px;
   background-color: cornsilk;
   overflow: hidden;
   height: 200px;
   max-height: 35vh;
-  box-shadow: 0px 12px 18px -6px rgba(0, 0 ,0 ,0.3);
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -13,7 +13,22 @@
   -o-border-radius: 10px;
 }
 
-.grids{
-  max-width: 50%;
+.grids {
+  max-width: 70%;
   margin: auto;
+}
+
+.box1 {
+  margin: 20px;
+  margin-top: 150px;
+  background-color: cornsilk;
+  overflow: hidden;
+  height: 400px;
+  max-height: 35vh;
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }

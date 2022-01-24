@@ -1,10 +1,12 @@
 import React from 'react';
-import { Navbar ,NavbarBrand, NavbarText, NavbarToggler, Collapse, Nav, NavItem, NavLink} from "reactstrap";
+import { Navbar ,NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink} from "reactstrap";
+
 
 const Navigation = () => {
   return (  
     <div>
       <Navbar
+        className='background'
         color="dark"
         container="xl"
         dark
@@ -23,6 +25,11 @@ const Navigation = () => {
           >
             <NavItem>
               <NavLink href="/components/">
+                About me
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="https://github.com/reactstrap/reactstrap">
                 Projects
               </NavLink>
             </NavItem>
@@ -32,9 +39,6 @@ const Navigation = () => {
               </NavLink>
             </NavItem>
           </Nav>
-          <NavbarText>
-            Simple Text
-          </NavbarText>
         </Collapse>
       </Navbar>
     </div>
