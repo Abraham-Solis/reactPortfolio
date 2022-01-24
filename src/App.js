@@ -1,13 +1,15 @@
 import './App.css'
-import Navbar from './components/Navbar'
+import Navigation from './components/Navigation'
+import Cards from './components/Cards'
+import Example from './components/Example/Example'
 
 
 function App () {
   return (
     <>
-    <Navbar />
-    <h1>Hey!</h1>
-      
+      <Navigation />
+      <Example />
+      <Cards />
     </>
   )
 }
