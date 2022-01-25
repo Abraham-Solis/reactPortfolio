@@ -8,7 +8,6 @@ const Intro = () => {
         <section className="landing">
           <nav>
             <h1 id="logo">Abraham Solis</h1>
-
             <ul className="nav-links">
               <li>About</li>
               <li>Projects</li>
