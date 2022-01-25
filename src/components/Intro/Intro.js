@@ -40,7 +40,7 @@ const Intro = () => {
       <div className="intro">
         <div className="intro-text">
           <h1 className="hide">
-            <span className='text'>Creating Innovations &nbsp; </span>
+            <span className='text'>Creating Ideas &nbsp; </span>
           </h1>
         </div>
         <div className="intro-text">
@@ -50,7 +50,7 @@ const Intro = () => {
         </div>
         <div className="intro-text">
           <h1 className="hide">
-            <span className='text'> Extravagant people.</span>
+            <span className='text'> Everyday people.</span>
           </h1>
         </div>
       </div>
