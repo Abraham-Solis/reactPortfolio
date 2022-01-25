@@ -34,23 +34,23 @@ const Intro = () => {
               <li>Contact</li>
             </ul>
           </nav>
-          <h2 className='big-text'>Weclome to my Portfolio</h2>
+          <h2 className='big-text'>Welcome to my Portfolio</h2>
         </section>
       </main>
       <div className="intro">
         <div className="intro-text">
           <h1 className="hide">
-            <span className='text'>Creating Innovations </span>
+            <span className='text'>Creating Innovations &nbsp; </span>
           </h1>
         </div>
         <div className="intro-text">
           <h1 className="hide">
-            <span className='text'> Made for </span>
+            <span className='text'> Made for &nbsp;</span>
           </h1>
         </div>
         <div className="intro-text">
           <h1 className="hide">
-            <span className='text'> Everyday people.</span>
+            <span className='text'> Extravagant people.</span>
           </h1>
         </div>
       </div>
