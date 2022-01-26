@@ -32,7 +32,7 @@ const Work = () => {
             </CardSubtitle>
           </CardBody>
           <img
-            alt="Card image cap"
+            alt="SunodeKu"
             src="https://user-images.githubusercontent.com/92957388/151100131-f6e51e81-4aa4-463f-8d03-b597edec185e.PNG"
             width="100%"
           />
@@ -71,7 +71,7 @@ const Work = () => {
             </CardSubtitle>
           </CardBody>
           <img
-            alt="Card image cap"
+            alt="PairUp"
             src="https://user-images.githubusercontent.com/92957388/151098792-4dc3f464-a07d-452a-ad0f-550e99def285.PNG"
             width="100%"
           />
@@ -108,7 +108,7 @@ const Work = () => {
             </CardSubtitle>
           </CardBody>
           <img
-            alt="Card image cap"
+            alt="Tea"
             src="https://data.whicdn.com/images/328678500/original.gif"
             width="100%"
           />
