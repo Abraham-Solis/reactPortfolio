@@ -58,12 +58,10 @@ const Work = () => {
           </CardBody>
         </Card>
         <div className='col-4'>
-            <Image src={Geko} alt='geko'
+          <Image src={Geko} alt='geko'
             drag={true}
             dragConstraints={{ left: 100, right: 150, top: 150, bottom: 150 }}
             dragTransition={{ bounceStiffness: 300, bounceDamping: 10 }}
-            // initial={{ opacity: 0, x: 100 }}
-            // animate={{ opacity: 1, y: 0, transition: { duration: 1 } }}
             whileTap={{ scale: 0.9 }} />
         </div>
       </div>
