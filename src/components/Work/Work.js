@@ -1,11 +1,24 @@
 import React, { useEffect } from 'react';
+import styled from 'styled-components';
+import { motion, useMotionValue} from "framer-motion"
+import Geko from './geko.png'
 import './Work.css'
 import Aos from 'aos'
 import "aos/dist/aos.css"
 import { Card, CardBody, CardTitle, CardSubtitle, CardText, Button} from "reactstrap";
 
-const Work = () => {
 
+const Image = styled(motion.img)`
+display:block;
+margin-left: auto;
+margin-right:auto;
+width: 1000px;
+height: 1000px;
+`;
+
+const Work = () => {
+ 
+  
   useEffect(() => {
     Aos.init({ duration: 3000 })
   }, [])
@@ -44,7 +57,15 @@ const Work = () => {
             <Button href="https://sunodeku.herokuapp.com/" rel="noopener noreferrer" target="_blank" variant="secondary">Live Link</Button>{' '}
           </CardBody>
         </Card>
-        <div className='col-4'></div>
+        <div className='col-4'>
+            <Image src={Geko} alt='geko'
+            drag={true}
+            dragConstraints={{ left: 100, right: 150, top: 150, bottom: 150 }}
+            dragTransition={{ bounceStiffness: 300, bounceDamping: 10 }}
+            // initial={{ opacity: 0, x: 100 }}
+            // animate={{ opacity: 1, y: 0, transition: { duration: 1 } }}
+            whileTap={{ scale: 0.9 }} />
+        </div>
       </div>
 
       <br />
