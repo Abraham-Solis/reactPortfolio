@@ -5,8 +5,8 @@
 
 .header {
   padding-left: 10rem;
-  padding-top: 11rem;
-  margin-bottom: 40px;
+  padding-top: 9rem;
+  margin-bottom: 80px;
   font-size: 5rem;
   font-family: "Lobster", cursive;
   color: rgb(255, 249, 254);
@@ -14,6 +14,14 @@
   text-align: center;
 }
 
-.title{
-  
+.title {
+  font-family: "Heebo", sans-serif;
+  font-size: 2rem;
+  color: rgb(15, 39, 63);
+}
+
+.summary {
+  font-family: "Heebo", sans-serif;
+  font-size: 1rem;
+  color: rgb(15, 39, 63);
 }

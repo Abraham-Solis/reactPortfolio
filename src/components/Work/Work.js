@@ -21,14 +21,14 @@ const Work = () => {
           data-aos="fade-up"
           className='col-6'>
           <CardBody>
-            <CardTitle tag="h5">
-              Card title
+            <CardTitle className= "title"tag="h5">
+              SuNodeKu
             </CardTitle>
             <CardSubtitle
               className="mb-2 text-muted"
               tag="h6"
             >
-              Card subtitle
+              January 2022
             </CardSubtitle>
           </CardBody>
           <img
@@ -37,8 +37,8 @@ const Work = () => {
             width="100%"
           />
           <CardBody>
-            <CardText>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
+            <CardText className='summary' >
+              SuNodeKu is an interactive puzzle challenge. Presented with a polished and responsive UI. The user is able to creat an account and able to select a difficulty to generate a sudoku grid in which number of completed games, and total amount of games are recorded in on the user's personal profile and on the server leaderboard. Users can post their boards to the Forum and ask for help from other users.
             </CardText>
             <Button href="https://github.com/Abraham-Solis/suNodeKu" rel="noopener noreferrer" target="_blank" variant="secondary">GitHub</Button>{' '}
             <Button href="https://sunodeku.herokuapp.com/" rel="noopener noreferrer" target="_blank" variant="secondary">Live Link</Button>{' '}
@@ -51,59 +51,22 @@ const Work = () => {
       <br />
       <br />
 
-      {/* Card 2  */}
+{/* Card 3 */}
+
       <div className='row'>
         <div className='col-4'></div>
         <Card
           data-aos="fade-left"
           className='col-6'>
           <CardBody>
-            <CardTitle tag="h5">
-              Card title
+            <CardTitle className= "title" tag="h5">
+              PairUp
             </CardTitle>
             <CardSubtitle
               className="mb-2 text-muted"
               tag="h6"
             >
-              Card subtitle
-            </CardSubtitle>
-          </CardBody>
-          <img
-            alt="Card image cap"
-            src="https://data.whicdn.com/images/328678500/original.gif"
-            width="100%"
-          />
-          <CardBody>
-            <CardText>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </CardText>
-            <Button href="https://github.com/Abraham-Solis/newTea" rel="noopener noreferrer" target="_blank"  variant="secondary">GitHub</Button>{' '}
-            <Button href="https://abraham-solis.github.io/newTea/" rel="noopener noreferrer" target="_blank" variant="secondary">Live Link</Button>{' '}
-          </CardBody>
-        </Card>
-        <div className='col-1'></div>
-      </div>
-
-      <br />
-      <br />
-      <br />
-
-{/* Card 3 */}
-
-      <div className='row'>
-        <div className='col-1'></div>
-        <Card
-          data-aos="fade-right"
-          className='col-6'>
-          <CardBody>
-            <CardTitle tag="h5">
-              Card title
-            </CardTitle>
-            <CardSubtitle
-              className="mb-2 text-muted"
-              tag="h6"
-            >
-              Card subtitle
+              December 2021
             </CardSubtitle>
           </CardBody>
           <img
@@ -112,15 +75,54 @@ const Work = () => {
             width="100%"
           />
           <CardBody>
-            <CardText>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
+            <CardText className='summary'>
+              We've created a tool to make meal planning quick and easy! Simply select which ingredients you've got, and you'll get tailor-made recipes and a corresponding YouTube video to show you how to follow along. Better yet, our app will even provide precise nutritional information and recommend the perfect beer pairings of your finished dish!
             </CardText>
             <Button href = "https://github.com/me0wmerz/pairUp"rel="noopener noreferrer" target="_blank" variant="secondary">GitHub</Button>{' '}
             <Button href= "https://me0wmerz.github.io/pairUp/"rel="noopener noreferrer" target="_blank" variant="secondary">Live Link</Button>{' '}
           </CardBody>
         </Card>
+        <div className='col-1'></div>
+      </div>
+      
+      <br />
+      <br />
+      <br />
+
+      {/* Card 2  */}
+      <div className='row'>
+        <div className='col-1'></div>
+        <Card
+          data-aos="fade-right"
+          className='col-6'>
+          <CardBody>
+            <CardTitle className= "title"tag="h5">
+              Everything About Tea
+            </CardTitle>
+            <CardSubtitle
+              className="mb-2 text-muted"
+              tag="h6"
+            >
+              November 2021
+            </CardSubtitle>
+          </CardBody>
+          <img
+            alt="Card image cap"
+            src="https://data.whicdn.com/images/328678500/original.gif"
+            width="100%"
+          />
+          <CardBody>
+            <CardText className='summary'>
+              A website describing why tea is essential. It was made with soul purpose of being a mobile responsive website.
+            </CardText>
+            <Button href="https://github.com/Abraham-Solis/newTea" rel="noopener noreferrer" target="_blank"  variant="secondary">GitHub</Button>{' '}
+            <Button href="https://abraham-solis.github.io/newTea/" rel="noopener noreferrer" target="_blank" variant="secondary">Live Link</Button>{' '}
+          </CardBody>
+        </Card>
         <div className='col-4'></div>
       </div>
+
+
 
     </body >
   );
