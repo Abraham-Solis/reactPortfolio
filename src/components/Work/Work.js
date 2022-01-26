@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './Work.css'
 import Aos from 'aos'
 import "aos/dist/aos.css"
-import { Card, CardBody, CardTitle, CardSubtitle, CardText, CardLink } from "reactstrap";
+import { Card, CardBody, CardTitle, CardSubtitle, CardText, Button} from "reactstrap";
 
 const Work = () => {
 
@@ -40,12 +40,8 @@ const Work = () => {
             <CardText>
               Some quick example text to build on the card title and make up the bulk of the card's content.
             </CardText>
-            <CardLink href="#">
-              Card Link
-            </CardLink>
-            <CardLink href="#">
-              Another Link
-            </CardLink>
+            <Button variant="secondary">GitHub</Button>{' '}
+            <Button variant="secondary">Live Link</Button>{' '}
           </CardBody>
         </Card>
         <div className='col-4'></div>
@@ -81,12 +77,8 @@ const Work = () => {
             <CardText>
               Some quick example text to build on the card title and make up the bulk of the card's content.
             </CardText>
-            <CardLink href="#">
-              Card Link
-            </CardLink>
-            <CardLink href="#">
-              Another Link
-            </CardLink>
+            <Button variant="secondary">GitHub</Button>{' '}
+            <Button variant="secondary">Live Link</Button>{' '}
           </CardBody>
         </Card>
         <div className='col-1'></div>
@@ -123,12 +115,8 @@ const Work = () => {
             <CardText>
               Some quick example text to build on the card title and make up the bulk of the card's content.
             </CardText>
-            <CardLink href="#">
-              Card Link
-            </CardLink>
-            <CardLink href="#">
-              Another Link
-            </CardLink>
+            <Button variant="secondary">GitHub</Button>{' '}
+            <Button variant="secondary">Live Link</Button>{' '}
           </CardBody>
         </Card>
         <div className='col-4'></div>
