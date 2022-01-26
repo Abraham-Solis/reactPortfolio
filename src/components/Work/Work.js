@@ -51,10 +51,11 @@ const Work = () => {
       <br />
       <br />
 
-{/* Card 3 */}
+{/* Card 2*/}
 
       <div className='row'>
-        <div className='col-4'></div>
+        <div className='col-4 gekko'>
+        </div>
         <Card
           data-aos="fade-left"
           className='col-6'>
@@ -89,7 +90,7 @@ const Work = () => {
       <br />
       <br />
 
-      {/* Card 2  */}
+      {/* Card 3 */}
       <div className='row'>
         <div className='col-1'></div>
         <Card
