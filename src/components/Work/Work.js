@@ -33,15 +33,15 @@ const Work = () => {
           </CardBody>
           <img
             alt="Card image cap"
-            src="https://picsum.photos/318/180"
+            src="https://user-images.githubusercontent.com/92957388/148321258-a049bc95-4641-4479-9359-05a450fc1704.PNG"
             width="100%"
           />
           <CardBody>
             <CardText>
               Some quick example text to build on the card title and make up the bulk of the card's content.
             </CardText>
-            <Button variant="secondary">GitHub</Button>{' '}
-            <Button variant="secondary">Live Link</Button>{' '}
+            <Button href="https://github.com/Abraham-Solis/suNodeKu" rel="noopener noreferrer" target="_blank" variant="secondary">GitHub</Button>{' '}
+            <Button href="https://sunodeku.herokuapp.com/" rel="noopener noreferrer" target="_blank" variant="secondary">Live Link</Button>{' '}
           </CardBody>
         </Card>
         <div className='col-4'></div>
@@ -70,15 +70,15 @@ const Work = () => {
           </CardBody>
           <img
             alt="Card image cap"
-            src="https://picsum.photos/318/180"
+            src="https://data.whicdn.com/images/328678500/original.gif"
             width="100%"
           />
           <CardBody>
             <CardText>
               Some quick example text to build on the card title and make up the bulk of the card's content.
             </CardText>
-            <Button variant="secondary">GitHub</Button>{' '}
-            <Button variant="secondary">Live Link</Button>{' '}
+            <Button href="https://github.com/Abraham-Solis/newTea" rel="noopener noreferrer" target="_blank"  variant="secondary">GitHub</Button>{' '}
+            <Button href="https://abraham-solis.github.io/newTea/" rel="noopener noreferrer" target="_blank" variant="secondary">Live Link</Button>{' '}
           </CardBody>
         </Card>
         <div className='col-1'></div>
@@ -108,7 +108,7 @@ const Work = () => {
           </CardBody>
           <img
             alt="Card image cap"
-            src="https://picsum.photos/318/180"
+            src="https://user-images.githubusercontent.com/92957388/151098792-4dc3f464-a07d-452a-ad0f-550e99def285.PNG"
             width="100%"
           />
           <CardBody>
