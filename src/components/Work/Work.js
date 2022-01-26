@@ -33,7 +33,7 @@ const Work = () => {
           </CardBody>
           <img
             alt="Card image cap"
-            src="https://user-images.githubusercontent.com/92957388/148321258-a049bc95-4641-4479-9359-05a450fc1704.PNG"
+            src="https://user-images.githubusercontent.com/92957388/151100131-f6e51e81-4aa4-463f-8d03-b597edec185e.PNG"
             width="100%"
           />
           <CardBody>
@@ -115,8 +115,8 @@ const Work = () => {
             <CardText>
               Some quick example text to build on the card title and make up the bulk of the card's content.
             </CardText>
-            <Button variant="secondary">GitHub</Button>{' '}
-            <Button variant="secondary">Live Link</Button>{' '}
+            <Button href = "https://github.com/me0wmerz/pairUp"rel="noopener noreferrer" target="_blank" variant="secondary">GitHub</Button>{' '}
+            <Button href= "https://me0wmerz.github.io/pairUp/"rel="noopener noreferrer" target="_blank" variant="secondary">Live Link</Button>{' '}
           </CardBody>
         </Card>
         <div className='col-4'></div>
