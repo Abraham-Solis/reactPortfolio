@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
-import { motion, useMotionValue} from "framer-motion"
+import { motion} from "framer-motion"
 import Geko from './geko.png'
 import './Work.css'
 import Aos from 'aos'
@@ -12,11 +12,17 @@ const Image = styled(motion.img)`
 display:block;
 margin-left: auto;
 margin-right:auto;
-width: 1000px;
-height: 1000px;
+width: 300px;
+height: 300px;
+`;
+
+const MotionConstraints = styled(motion.div)`
+  height: 30vh;
+  width: 30w;
 `;
 
 const Work = () => {
+  const constraintsRef = useRef(null);
  
   
   useEffect(() => {
@@ -40,8 +46,7 @@ const Work = () => {
             <CardSubtitle
               className="mb-2 text-muted"
               tag="h6"
-            >
-              January 2022
+            >January 2022
             </CardSubtitle>
           </CardBody>
           <img
@@ -58,11 +63,17 @@ const Work = () => {
           </CardBody>
         </Card>
         <div className='col-4'>
-          <Image src={Geko} alt='geko'
-            drag={true}
-            dragConstraints={{ left: 100, right: 150, top: 150, bottom: 150 }}
-            dragTransition={{ bounceStiffness: 300, bounceDamping: 10 }}
-            whileTap={{ scale: 0.9 }} />
+
+          <MotionConstraints ref={constraintsRef}>
+            <Image src={Geko} alt='geko' id='animal'
+              drag={true}
+              dragConstraints={constraintsRef}
+              initial={{ opacity: 0, y: -100 }}
+              animate={{ opacity: 1, y: 0, transition: { duration: 1 } }}
+              dragTransition={{ bounceStiffness: 45, bounceDamping: 5 }}
+              whileTap={{ scale: 0.9 }}
+            />
+          </MotionConstraints>
         </div>
       </div>
 
