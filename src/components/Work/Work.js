@@ -32,7 +32,7 @@ const Work = () => {
   return (
     <body className='bg'>
 
-      <h6 className='header'>Projects:</h6>
+      <h6 id = "projects"className='header'>Projects:</h6>
 
       <div className='row'>
         <div className='col-1'></div>

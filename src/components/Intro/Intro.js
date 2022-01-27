@@ -29,9 +29,10 @@ const Intro = () => {
           <nav>
             <h1 id="logo">Abraham Solis</h1>
             <ul className="nav-links">
-              <li>About</li>
-              <li>Projects</li>
-              <li>Contact</li>
+              <li><a href="#aboutMe" id="GG">About Me</a></li>
+              <li><a href="#projects" id="GG">Projects</a></li>
+              <li><a href="#contactMe" id="GG">Contact Me</a></li>
+              <li><a href="#projects" id="GG">Resume</a></li>
             </ul>
           </nav>
           <h2 className='big-text'>Welcome to my Portfolio</h2>

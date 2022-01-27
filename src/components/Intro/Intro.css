@@ -95,16 +95,22 @@ nav {
 
 /* Hiding our intro text */
 
-.hide{
+.hide {
   background: black;
   overflow: hidden;
 }
+
 /* Spans are inline Elements so need Display inline-block to move */
-.hide span{
+.hide span {
   transform: translateY(100%);
   -webkit-transform: translateY(100%);
   -moz-transform: translateY(100%);
   -ms-transform: translateY(100%);
   -o-transform: translateY(100%);
   display: inline-block;
+}
+
+#GG {
+text-decoration: none;
+color: inherit;
 }
