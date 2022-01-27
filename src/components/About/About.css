@@ -6,6 +6,8 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  filter: drop-shadow(5px 5px 5px black);
+  -webkit-filter: drop-shadow(5px 5px 5px black);
 }
 
 .one {
@@ -20,7 +22,7 @@
 .header {
   padding-left: 10rem;
   padding-top: 9rem;
-  margin-bottom: 80px;
+  margin-bottom: 10rem;
   font-size: 5rem;
   font-family: "Lobster", cursive;
   color: rgb(255, 249, 254);

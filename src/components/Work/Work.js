@@ -38,7 +38,7 @@ const Work = () => {
         <div className='col-1'></div>
         <Card
           data-aos="fade-up"
-          className='col-6'>
+          className='col-6 shadow'>
           <CardBody>
             <CardTitle className= "title"tag="h5">
               SuNodeKu
@@ -88,7 +88,7 @@ const Work = () => {
         </div>
         <Card
           data-aos="fade-left"
-          className='col-6'>
+          className='col-6 shadow'>
           <CardBody>
             <CardTitle className= "title" tag="h5">
               PairUp
@@ -125,7 +125,7 @@ const Work = () => {
         <div className='col-1'></div>
         <Card
           data-aos="fade-right"
-          className='col-6'>
+          className='col-6 shadow'>
           <CardBody>
             <CardTitle className= "title"tag="h5">
               Everything About Tea

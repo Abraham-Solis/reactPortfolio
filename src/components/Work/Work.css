@@ -12,6 +12,8 @@
   color: rgb(255, 249, 254);
   text-shadow: 2px 2px #ff24a4;
   text-align: center;
+  filter: drop-shadow(5px 5px 5px black);
+  -webkit-filter: drop-shadow(5px 5px 5px black);
 }
 
 .title {
@@ -24,4 +26,8 @@
   font-family: "Heebo", sans-serif;
   font-size: 1rem;
   color: rgb(15, 39, 63);
+}
+
+.shadow {
+
 }

@@ -19,7 +19,7 @@ const About = () => {
 
 
           </div>
-          <div className='col-4 paragraph'>  <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quaerat perferendis omnis dolorem pariatur deleniti necessitatibus a quasi magni illo. Esse ipsa consectetur eos at nemo nisi nesciunt minus ipsam.</p></div>
+          <div className='col-4 paragraph'>  <p> I am a Full Stack Web Developer graduated from UCI continue learning program. I enjoy coding, creating fun websites and gaming. If you liked the work presented above feel free to contact me below and we can get started!</p></div>
       
         </div>
 
