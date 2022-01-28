@@ -14,7 +14,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - [Questions](#questions)
 
   ## Description
-This is my portfolio displaying group and solo work I have worked one. If you like what you see feel free to conact me below! 
+  This is my portfolio displaying group and solo work I have worked one. If you like what you see feel free to conact me below! *The geko does not work on mmozilla firefox*
 
   ## Installation
   *Steps required to install project and how to get the development environment running:*
