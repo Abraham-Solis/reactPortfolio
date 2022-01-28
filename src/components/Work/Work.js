@@ -5,7 +5,7 @@ import Geko from './geko.png'
 import './Work.css'
 import Aos from 'aos'
 import "aos/dist/aos.css"
-import { Card, CardBody, CardTitle, CardSubtitle, CardText, Button} from "reactstrap";
+import { Card, CardBody, CardTitle, CardSubtitle, CardText, Button, Container} from "reactstrap";
 
 
 const Image = styled(motion.img)`
@@ -31,6 +31,12 @@ const Work = () => {
 
   return (
     <body className='bg'>
+      
+        className="bg-light border"
+        fluid
+      >
+        
+    
 
       <h6 id = "projects"className='header'>Projects:</h6>
 
@@ -153,7 +159,7 @@ const Work = () => {
         <div className='col-4'></div>
       </div>
 
-
+     
 
     </body >
   );

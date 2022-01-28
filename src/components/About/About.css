@@ -35,3 +35,13 @@
   font-family: "Heebo", sans-serif;
   font-size: 2rem;
 }
+
+img:hover {
+  opacity: 1;
+}
+
+.full {
+  color: var(--light);
+  opacity: .5;
+  padding: 10px;
+}

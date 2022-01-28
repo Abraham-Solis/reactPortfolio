@@ -32,7 +32,7 @@ const Intro = () => {
               <li><a href="#aboutMe" id="GG">About Me</a></li>
               <li><a href="#projects" id="GG">Projects</a></li>
               <li><a href="#contactMe" id="GG">Contact Me</a></li>
-              <li><a href="#projects" id="GG">Resume</a></li>
+              <li><a rel="noopener noreferrer" target="_blank" href="https://docs.google.com/document/d/1xywiaFfxd92L9CzRJ_a7w8rvDYUuOtCrv9VI_lEKNes/edit" id="GG">Resume</a></li>
             </ul>
           </nav>
           <h2 className='big-text'>Welcome to my Portfolio</h2>
