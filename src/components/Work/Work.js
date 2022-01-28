@@ -1,11 +1,11 @@
 import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
-import { motion} from "framer-motion"
+import { motion } from "framer-motion"
 import Geko from './geko.png'
 import './Work.css'
 import Aos from 'aos'
 import "aos/dist/aos.css"
-import { Card, CardBody, CardTitle, CardSubtitle, CardText, Button, Container} from "reactstrap";
+import { Card, CardBody, CardTitle, CardSubtitle, CardText, Button, Container } from "reactstrap";
 
 
 const Image = styled(motion.img)`
@@ -23,22 +23,22 @@ const MotionConstraints = styled(motion.div)`
 
 const Work = () => {
   const constraintsRef = useRef(null);
- 
-  
+
+
   useEffect(() => {
     Aos.init({ duration: 3000 })
   }, [])
 
   return (
     <body className='bg'>
-      
-        className="bg-light border"
-        fluid
-      >
-        
-    
 
-      <h6 id = "projects"className='header'>Projects:</h6>
+      className="bg-light border"
+      fluid
+      >
+
+
+
+      <h6 id="projects" className='header'>Projects:</h6>
 
       <div className='row'>
         <div className='col-1'></div>
@@ -46,7 +46,7 @@ const Work = () => {
           data-aos="fade-up"
           className='col-6 shadow'>
           <CardBody>
-            <CardTitle className= "title"tag="h5">
+            <CardTitle className="title" tag="h5">
               SuNodeKu
             </CardTitle>
             <CardSubtitle
@@ -87,7 +87,7 @@ const Work = () => {
       <br />
       <br />
 
-{/* Card 2*/}
+      {/* Card 2*/}
 
       <div className='row'>
         <div className='col-4 gekko'>
@@ -96,7 +96,7 @@ const Work = () => {
           data-aos="fade-left"
           className='col-6 shadow'>
           <CardBody>
-            <CardTitle className= "title" tag="h5">
+            <CardTitle className="title" tag="h5">
               PairUp
             </CardTitle>
             <CardSubtitle
@@ -115,13 +115,13 @@ const Work = () => {
             <CardText className='summary'>
               We've created a tool to make meal planning quick and easy! Simply select which ingredients you've got, and you'll get tailor-made recipes and a corresponding YouTube video to show you how to follow along. Better yet, our app will even provide precise nutritional information and recommend the perfect beer pairings of your finished dish!
             </CardText>
-            <Button href = "https://github.com/me0wmerz/pairUp"rel="noopener noreferrer" target="_blank" variant="secondary">GitHub</Button>{' '}
-            <Button href= "https://me0wmerz.github.io/pairUp/"rel="noopener noreferrer" target="_blank" variant="secondary">Live Link</Button>{' '}
+            <Button href="https://github.com/me0wmerz/pairUp" rel="noopener noreferrer" target="_blank" variant="secondary">GitHub</Button>{' '}
+            <Button href="https://me0wmerz.github.io/pairUp/" rel="noopener noreferrer" target="_blank" variant="secondary">Live Link</Button>{' '}
           </CardBody>
         </Card>
         <div className='col-1'></div>
       </div>
-      
+
       <br />
       <br />
       <br />
@@ -133,7 +133,7 @@ const Work = () => {
           data-aos="fade-right"
           className='col-6 shadow'>
           <CardBody>
-            <CardTitle className= "title"tag="h5">
+            <CardTitle className="title" tag="h5">
               Everything About Tea
             </CardTitle>
             <CardSubtitle
@@ -152,14 +152,14 @@ const Work = () => {
             <CardText className='summary'>
               A website describing why tea is essential. It was made with soul purpose of being a mobile responsive website.
             </CardText>
-            <Button href="https://github.com/Abraham-Solis/newTea" rel="noopener noreferrer" target="_blank"  variant="secondary">GitHub</Button>{' '}
+            <Button href="https://github.com/Abraham-Solis/newTea" rel="noopener noreferrer" target="_blank" variant="secondary">GitHub</Button>{' '}
             <Button href="https://abraham-solis.github.io/newTea/" rel="noopener noreferrer" target="_blank" variant="secondary">Live Link</Button>{' '}
           </CardBody>
         </Card>
         <div className='col-4'></div>
       </div>
 
-     
+
 
     </body >
   );

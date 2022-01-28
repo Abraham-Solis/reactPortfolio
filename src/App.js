@@ -5,15 +5,15 @@ import About from './components/About'
 import Contact from './components/Contact'
 
 
-function App () {
+function App() {
 
   return (
-  <>
-    <Intro />
-    <Work />
-    <About />
-    <Contact/>
-  </>
+    <>
+      <Intro />
+      <Work />
+      <About />
+      <Contact />
+    </>
   )
 }
 
