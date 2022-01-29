@@ -8,6 +8,7 @@
   background-size: cover;
   filter: drop-shadow(5px 5px 5px black);
   -webkit-filter: drop-shadow(5px 5px 5px black);
+  margin-left: 75px;
 }
 
 .one {
@@ -44,4 +45,23 @@ img:hover {
   color: var(--light);
   opacity: .5;
   padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .user{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header {
+    position: relative;
+    text-align: center;
+  }
+
+  .bg{
+    align-content: center;
+  }
+
 }

@@ -1,14 +1,13 @@
 import React from 'react';
-import { Form, FormGroup, Label, Input, Button } from "reactstrap";
+import { Form, FormGroup, Label, Input, Button, Row,Col } from "reactstrap";
 import './Contact.css'
 
 const Contact = () => {
   return (
-    <section className="bg">
+    <Row className="bg">
       <h6 id="contactMe" className='header'>Contact Me:</h6>
-      <div className='row'>
-        <div className='col-4'></div>
-        <Form className='col-4'>
+        <Col xs='2' md='2'></Col>
+        <Form  className='col-8'>
           <FormGroup>
             <Label className="prompt" for="exampleName">
               Name
@@ -33,7 +32,7 @@ const Contact = () => {
           </FormGroup>
           <FormGroup>
             <Label className="prompt" for="exampleText">
-              Text Area
+              Say Hello!
             </Label>
             <Input
               id="exampleText"
@@ -46,12 +45,11 @@ const Contact = () => {
             Submit
           </Button>
         </Form>
-        <div className='col-4'></div>
-      </div>
+        <Col xs="2" md="2"></Col>
       <br />
       <br />
       <br />
-    </section>
+    </Row>
   );
 };
 

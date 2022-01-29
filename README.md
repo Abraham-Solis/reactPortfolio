@@ -40,4 +40,3 @@ This is my portfolio displaying group and solo work I have worked one. If you li
   GitHub: https://github.com/Abraham-Solis
   Email: abe.solis2015@gmail.com
 
-

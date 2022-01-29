@@ -12,7 +12,8 @@ main {
 
 .landing {
   min-height: 100vh;
-  background: url("./retro.jpg");
+  max-width: 300%;
+  background: url("./retro.png");
   background-size: cover;
   padding: 0rem 5rem;
 }
@@ -61,7 +62,7 @@ nav {
 }
 
 /* Creating Intro */
-
+/* 
 .intro {
   background: black;
   position: fixed;
@@ -72,8 +73,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
+} */
+/* 
 .slider {
   background: rgb(25, 26, 34);
   position: fixed;
@@ -86,7 +87,7 @@ nav {
   -moz-transform: translateY(100%);
   -ms-transform: translateY(100%);
   -o-transform: translateY(100%);
-}
+} */
 
 .intro-text {
   color: rgb(186, 192, 194);
@@ -96,22 +97,35 @@ nav {
 
 /* Hiding our intro text */
 
-.hide {
+/* .hide {
   background: black;
   overflow: hidden;
-}
+} */
 
 /* Spans are inline Elements so need Display inline-block to move */
-.hide span {
+/* .hide span {
   transform: translateY(100%);
   -webkit-transform: translateY(100%);
   -moz-transform: translateY(100%);
   -ms-transform: translateY(100%);
   -o-transform: translateY(100%);
   display: inline-block;
-}
+} */
 
 #GG {
   text-decoration: none;
   color: inherit;
+}
+
+.space{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+@media screen and (max-width:600px) {
+  .land{
+    max-width: 300%;
+    max-height: 100%;
+
+  }
 }
