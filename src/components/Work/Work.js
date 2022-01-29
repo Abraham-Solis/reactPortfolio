@@ -5,7 +5,7 @@ import Geko from './geko.png'
 import './Work.css'
 import Aos from 'aos'
 import "aos/dist/aos.css"
-import { Card, CardBody, CardTitle, CardSubtitle, CardText, Button,  Row, Col } from "reactstrap";
+import { Card, CardBody, CardTitle, CardSubtitle, CardText, Button, Row, Col } from "reactstrap";
 
 
 const Image = styled(motion.img)`
@@ -32,10 +32,10 @@ const Work = () => {
 
   return (
     <body className='bg'>
-    
-    
+
+
       <Row className='bg'>
-      <h6 id="projects" className='header'>Projects:</h6>
+        <h6 id="projects" className='header'>Projects:</h6>
         <Col xs="0" md="1"></Col>
         <Col xs="12" md="6">
           <Card
@@ -90,34 +90,34 @@ const Work = () => {
 
       <Row>
         <Col xs="0" md="4"></Col>
-        <Col xs= "0" md= "6">
-        <Card
-          data-aos="fade-left"
-          className='shadow'>
-          <CardBody>
-            <CardTitle className="title" tag="h5">
-              PairUp
-            </CardTitle>
-            <CardSubtitle
-              className="mb-2 text-muted"
-              tag="h6"
-            >
-              December 2021
-            </CardSubtitle>
-          </CardBody>
-          <img
-            alt="PairUp"
-            src="https://user-images.githubusercontent.com/92957388/151098792-4dc3f464-a07d-452a-ad0f-550e99def285.PNG"
-            width="100%"
-          />
-          <CardBody>
-            <CardText className='summary'>
-              We've created a tool to make meal planning quick and easy! Simply select which ingredients you've got, and you'll get tailor-made recipes and a corresponding YouTube video to show you how to follow along. Better yet, our app will even provide precise nutritional information and recommend the perfect beer pairings of your finished dish!
-            </CardText>
-            <Button href="https://github.com/me0wmerz/pairUp" rel="noopener noreferrer" target="_blank" variant="secondary">GitHub</Button>{' '}
-            <Button href="https://me0wmerz.github.io/pairUp/" rel="noopener noreferrer" target="_blank" variant="secondary">Live Link</Button>{' '}
-          </CardBody>
-        </Card>
+        <Col xs="0" md="6">
+          <Card
+            data-aos="fade-left"
+            className='shadow'>
+            <CardBody>
+              <CardTitle className="title" tag="h5">
+                PairUp
+              </CardTitle>
+              <CardSubtitle
+                className="mb-2 text-muted"
+                tag="h6"
+              >
+                December 2021
+              </CardSubtitle>
+            </CardBody>
+            <img
+              alt="PairUp"
+              src="https://user-images.githubusercontent.com/92957388/151098792-4dc3f464-a07d-452a-ad0f-550e99def285.PNG"
+              width="100%"
+            />
+            <CardBody>
+              <CardText className='summary'>
+                We've created a tool to make meal planning quick and easy! Simply select which ingredients you've got, and you'll get tailor-made recipes and a corresponding YouTube video to show you how to follow along. Better yet, our app will even provide precise nutritional information and recommend the perfect beer pairings of your finished dish!
+              </CardText>
+              <Button href="https://github.com/me0wmerz/pairUp" rel="noopener noreferrer" target="_blank" variant="secondary">GitHub</Button>{' '}
+              <Button href="https://me0wmerz.github.io/pairUp/" rel="noopener noreferrer" target="_blank" variant="secondary">Live Link</Button>{' '}
+            </CardBody>
+          </Card>
         </Col>
         <Col xs="0" md="2"></Col>
       </Row>
@@ -130,33 +130,33 @@ const Work = () => {
       <Row >
         <Col xs="0" md="2"></Col>
         <Col xs="12" md="6">
-        <Card
-          data-aos="fade-right"
-          className='shadow'>
-          <CardBody>
-            <CardTitle className="title" tag="h5">
-              Everything About Tea
-            </CardTitle>
-            <CardSubtitle
-              className="mb-2 text-muted"
-              tag="h6"
-            >
-              November 2021
-            </CardSubtitle>
-          </CardBody>
-          <img
-            alt="Tea"
-            src="https://data.whicdn.com/images/328678500/original.gif"
-            width="100%"
-          />
-          <CardBody>
-            <CardText className='summary'>
-              A website describing why tea is essential. It was made with soul purpose of being a mobile responsive website.
-            </CardText>
-            <Button href="https://github.com/Abraham-Solis/newTea" rel="noopener noreferrer" target="_blank" variant="secondary">GitHub</Button>{' '}
-            <Button href="https://abraham-solis.github.io/newTea/" rel="noopener noreferrer" target="_blank" variant="secondary">Live Link</Button>{' '}
-          </CardBody>
-        </Card>
+          <Card
+            data-aos="fade-right"
+            className='shadow'>
+            <CardBody>
+              <CardTitle className="title" tag="h5">
+                Everything About Tea
+              </CardTitle>
+              <CardSubtitle
+                className="mb-2 text-muted"
+                tag="h6"
+              >
+                November 2021
+              </CardSubtitle>
+            </CardBody>
+            <img
+              alt="Tea"
+              src="https://data.whicdn.com/images/328678500/original.gif"
+              width="100%"
+            />
+            <CardBody>
+              <CardText className='summary'>
+                A website describing why tea is essential. It was made with soul purpose of being a mobile responsive website.
+              </CardText>
+              <Button href="https://github.com/Abraham-Solis/newTea" rel="noopener noreferrer" target="_blank" variant="secondary">GitHub</Button>{' '}
+              <Button href="https://abraham-solis.github.io/newTea/" rel="noopener noreferrer" target="_blank" variant="secondary">Live Link</Button>{' '}
+            </CardBody>
+          </Card>
         </Col>
         <Col xs="0" md="4"></Col>
       </Row>
