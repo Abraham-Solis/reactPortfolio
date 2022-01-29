@@ -4,7 +4,7 @@ import './Contact.css'
 
 const Contact = () => {
   return (
-    <Row className="bg">
+    <Row className="bg row">
       <h6 id="contactMe" className='header'>Contact Me:</h6>
         <Col xs='2' md='2'></Col>
         <Form  className='col-8'>
