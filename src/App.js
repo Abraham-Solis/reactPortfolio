@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     <Container fluid style={{margin: 0, padding:0}}>
-      {/* <Intro /> */}
+      <Intro />
       <Work />
       <About />
       <Contact />

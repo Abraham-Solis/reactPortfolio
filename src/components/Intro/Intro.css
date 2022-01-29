@@ -62,7 +62,7 @@ nav {
 }
 
 /* Creating Intro */
-/* 
+
 .intro {
   background: black;
   position: fixed;
@@ -73,8 +73,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-} */
-/* 
+}
+
 .slider {
   background: rgb(25, 26, 34);
   position: fixed;
@@ -87,7 +87,7 @@ nav {
   -moz-transform: translateY(100%);
   -ms-transform: translateY(100%);
   -o-transform: translateY(100%);
-} */
+}
 
 .intro-text {
   color: rgb(186, 192, 194);
@@ -97,35 +97,60 @@ nav {
 
 /* Hiding our intro text */
 
-/* .hide {
+.hide {
   background: black;
   overflow: hidden;
-} */
+}
 
 /* Spans are inline Elements so need Display inline-block to move */
-/* .hide span {
+.hide span {
   transform: translateY(100%);
   -webkit-transform: translateY(100%);
   -moz-transform: translateY(100%);
   -ms-transform: translateY(100%);
   -o-transform: translateY(100%);
   display: inline-block;
-} */
+}
 
 #GG {
   text-decoration: none;
   color: inherit;
 }
 
-.space{
+.space {
   margin: 0 !important;
   padding: 0 !important;
 }
 
 @media screen and (max-width:600px) {
-  .land{
+  .land {
     max-width: 300%;
     max-height: 100%;
+  }
+
+  .big-text {
+    text-align: center;
+  }
+
+  .nav-links li {
+    padding-left: 0;
+    text-align: center;
+    justify-content: space-around;
+   
+  }
+
+  ul{
+    padding-left: 0 !important;
+  }
+
+  #logo{
+    text-align: center;
+    padding-bottom: ;
 
   }
+
+  .edge{
+    padding-right: 0% !important;
+  }
+
 }
