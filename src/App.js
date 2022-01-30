@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-    <Container fluid style={{margin: 0, padding:0}}>
+    <Container fluid style={{margin: 0, padding:0}} className='bgColor'>
       <Intro />
       <Work />
       <About />

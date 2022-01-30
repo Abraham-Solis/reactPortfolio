@@ -33,7 +33,7 @@ const Work = () => {
   return (
 
     <>
-    <Container flex className='wider'>
+      <Container flex className='wider'>
     <body className='bg scrollBye'>
 
 
