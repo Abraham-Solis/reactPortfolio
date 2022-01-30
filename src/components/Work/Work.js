@@ -158,7 +158,7 @@ const Work = () => {
             </CardBody>
           </Card>
         </Col>
-        <Col xs="0" md="4" className='removeSpace' ></Col>
+        <Col xs="0" md="4" style={{padding: 'none'}}></Col>
       </Row>
 
 
