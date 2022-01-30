@@ -4,12 +4,13 @@
   box-sizing: border-box;
 }
 
-
 .bg {
   background-color: rgb(15, 39, 63);
   width: 100%;
   overflow: hidden;
 }
+
+
 
 .header {
   text-align: center;
@@ -37,6 +38,8 @@
   color: rgb(15, 39, 63);
 }
 
+
+
 @media only screen and (max-width: 600px) {
   .container {
     width: 100%;
@@ -54,4 +57,21 @@
   .paragraph {
     text-align: center;
   }
+
+  .z {
+    z-index: 5;
+  }
+
+
+}
+
+
+
+.row {
+  --bs-gutter-x: 1rem !important;
+  --bs-gutter-y: 0;
+}
+
+.wider{
+  min-width: 0;
 }

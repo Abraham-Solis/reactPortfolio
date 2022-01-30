@@ -10,8 +10,8 @@ const About = () => {
 
     <>
       
-        <Row className='bg1'>
-          <h6 id="aboutMe" className='header'>About Me:</h6>
+        <Row className='bg1 gutterCalc'>
+        <h6 id="aboutMe" className='header headerRemove'>About Me:</h6>
 
           <Col xs="12" md="6">
             <div className="user one" ></div>

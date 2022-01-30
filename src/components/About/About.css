@@ -8,7 +8,6 @@
   background-size: cover;
   filter: drop-shadow(5px 5px 5px black);
   -webkit-filter: drop-shadow(5px 5px 5px black);
-  margin-left: 75px;
 }
 
 .one {
@@ -48,8 +47,12 @@ img:hover {
   padding: 10px;
 }
 
+.remove {
+  padding: 0 !important;
+}
+
 @media only screen and (max-width: 600px) {
-  .user{
+  .user {
     width: 300px;
     height: 300px;
     margin-left: auto;
@@ -61,8 +64,15 @@ img:hover {
     text-align: center;
   }
 
-  .bg{
+  .bg {
     align-content: center;
   }
 
+}
+
+.gutterCalc {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0px;
+  margin-right: 0px !important;
 }

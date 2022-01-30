@@ -5,7 +5,7 @@ import Geko from './geko.png'
 import './Work.css'
 import Aos from 'aos'
 import "aos/dist/aos.css"
-import { Card, CardBody, CardTitle, CardSubtitle, CardText, Button, Row, Col } from "reactstrap";
+import { Card, CardBody, CardTitle, CardSubtitle, CardText, Button, Row, Col , Container} from "reactstrap";
 
 
 const Image = styled(motion.img)`
@@ -31,13 +31,16 @@ const Work = () => {
   }, [])
 
   return (
-    <body className='bg'>
+
+    <>
+    <Container flex className='wider'>
+    <body className='bg scrollBye'>
 
 
       <Row className='bg'>
         <h6 id="projects" className='header'>Projects:</h6>
-        <Col xs="0" md="1"></Col>
-        <Col xs="12" md="6">
+        <Col xs="2" md="1"></Col>
+        <Col xs="9" md="6">
           <Card
             data-aos="fade-up"
             md="6"
@@ -66,10 +69,10 @@ const Work = () => {
             </CardBody>
           </Card>
         </Col>
-        <Col xs="0" md="2" className='removeSpace'>
+        <Col xs="1" md="2">
 
           <MotionConstraints ref={constraintsRef}>
-            <Image src={Geko} alt='geko' id='animal'
+            <Image  src={Geko} alt='geko' id='animal'
               drag={true}
               dragConstraints={constraintsRef}
               initial={{ opacity: 0, y: -100 }}
@@ -89,8 +92,8 @@ const Work = () => {
       {/* Card 2*/}
 
       <Row>
-        <Col xs="0" md="4"></Col>
-        <Col xs="0" md="6">
+        <Col xs="2" md="4"></Col>
+        <Col xs="9" md="6">
           <Card
             data-aos="fade-left"
             className='shadow'>
@@ -119,7 +122,7 @@ const Work = () => {
             </CardBody>
           </Card>
         </Col>
-        <Col xs="0" md="2" className='removeSpace'></Col>
+        <Col xs="1" md="2" className='justify'></Col>
       </Row>
 
       <br />
@@ -128,8 +131,8 @@ const Work = () => {
 
       {/* Card 3 */}
       <Row >
-        <Col xs="0" md="2"></Col>
-        <Col xs="12" md="6">
+        <Col xs="2" md="2"></Col>
+        <Col xs="9" md="6">
           <Card
             data-aos="fade-right"
             className='shadow'>
@@ -158,12 +161,14 @@ const Work = () => {
             </CardBody>
           </Card>
         </Col>
-        <Col xs="0" md="4" style={{padding: 'none'}}></Col>
+        <Col xs="1" md="4"></Col>
       </Row>
 
 
 
     </body >
+      </Container>
+    </>
   );
 };
 
