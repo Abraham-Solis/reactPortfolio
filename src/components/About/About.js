@@ -10,7 +10,7 @@ const About = () => {
 
     <>
       
-        <Row className='bg'>
+        <Row className='bg1'>
           <h6 id="aboutMe" className='header'>About Me:</h6>
 
           <Col xs="12" md="6">

@@ -66,7 +66,7 @@ const Work = () => {
             </CardBody>
           </Card>
         </Col>
-        <Col xs="0" md="2">
+        <Col xs="0" md="2" className='removeSpace'>
 
           <MotionConstraints ref={constraintsRef}>
             <Image src={Geko} alt='geko' id='animal'
@@ -119,7 +119,7 @@ const Work = () => {
             </CardBody>
           </Card>
         </Col>
-        <Col xs="0" md="2"></Col>
+        <Col xs="0" md="2" className='removeSpace'></Col>
       </Row>
 
       <br />
@@ -158,7 +158,7 @@ const Work = () => {
             </CardBody>
           </Card>
         </Col>
-        <Col xs="0" md="4"></Col>
+        <Col xs="0" md="4" className='removeSpace' ></Col>
       </Row>
 
 

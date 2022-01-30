@@ -15,9 +15,10 @@
   background-image: url('https://ca.slack-edge.com/T02JWMCBEFJ-U02KVDUJ680-b9f55b88f966-512');
 }
 
-.bg {
+.bg1 {
   background-color: rgb(15, 39, 63);
   overflow: hidden;
+
 }
 
 .header {
