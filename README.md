@@ -2,6 +2,8 @@
 
 <img src="https://user-images.githubusercontent.com/92957388/151212701-95e3f15a-f81e-493d-9866-fb4fca09440a.PNG" alt="Retro">
 
+Live Link! https://abraham-solis.github.io/reactPortfolio/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Table of Contents
@@ -14,7 +16,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - [Questions](#questions)
 
   ## Description
-  This is my portfolio displaying group and solo work I have worked one. If you like what you see feel free to conact me below! *The geko does not work on mmozilla firefox*
+  This is my portfolio displaying group and solo work I have worked one. It uses ReactStrap Styling Library, GSAP for animations, and Styled-Components for styling custom   made components. If you like what you see feel free to conact me below! *The geko does not work on mmozilla firefox*
 
   ## Installation
   *Steps required to install project and how to get the development environment running:*
