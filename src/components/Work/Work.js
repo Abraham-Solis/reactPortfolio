@@ -35,7 +35,7 @@ const Work = () => {
     <>
       <Container flex className='wider'>
     <body className='bg scrollBye'>
-
+    
 
       <Row className='bg'>
         <h6 id="projects" className='header'>Projects:</h6>
@@ -88,6 +88,45 @@ const Work = () => {
       <br />
       <br />
       <br />
+
+          <Row >
+            <Col xs="2" md="2"></Col>
+            <Col xs="9" md="6">
+              <Card
+                data-aos="fade-right"
+                className='shadow'>
+                <CardBody>
+                  <CardTitle className="title" tag="h5">
+                    Lo-fi Study Room
+                  </CardTitle>
+                  <CardSubtitle
+                    className="mb-2 text-muted"
+                    tag="h6"
+                  >
+                    Febuary 2022
+                  </CardSubtitle>
+                </CardBody>
+                <img
+                  alt="Lofi"
+                  src="https://user-images.githubusercontent.com/92957388/174871528-ac99730e-9913-450e-851a-95c0ffe744a0.PNG"
+                  width="100%"
+                />
+                <CardBody>
+                  <CardText className='summary'>
+                    We offer an array of lofi music playlists that can be accessed within the homepage and dynamic background sounds that offer a personalized ambience like no other place while you write down your ideas/thoughts/code and or notes. 
+                  </CardText>
+                  <Button href="https://github.com/NathanMontelli/lofiStudyRoom" rel="noopener noreferrer" target="_blank" variant="secondary">GitHub</Button>{' '}
+                  <Button href="https://studyroom32.herokuapp.com/" rel="noopener noreferrer" target="_blank" variant="secondary">Live Link</Button>{' '}
+                </CardBody>
+              </Card>
+            </Col>
+            <Col xs="1" md="4"></Col>
+          </Row>
+
+          <br />
+          <br />
+          <br />
+
 
       {/* Card 2*/}
 
